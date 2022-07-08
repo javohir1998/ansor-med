@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ansor medical</title>
 
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
   <!-- STYLES -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -13,9 +18,10 @@
 <body>
 
   <!-- HEADER -->
-  <head>
+
+  <header>
     <div>
-      <a href="index.html">
+      <a class="logo-link" href="index.html">
         <img src="img/logo-icon.svg" alt="Ansor Med logosi" width="50" height="50"><span>AnsorMed</span>
       </a>
 
@@ -23,44 +29,108 @@
 
         <!-- SITENAV -->
         <nav>
-          <ul>
-            <li><a href="#">XIZMATLAR</a></li>
-            <li><a href="#">DORILAR</a></li>
-            <li><a href="#">ASAL</a></li>
-            <li><a href="#">KONTAKTLAR</a></li>
-            <li><a href="#">BLOG</a></li>
+          <ul class="sitenav-list">
+            <li><a class="sitenav-link" href="#">XIZMATLAR</a></li>
+            <li><a class="sitenav-link" href="#">DORILAR</a></li>
+            <li><a class="sitenav-link" href="#">ASAL</a></li>
+            <li><a class="sitenav-link" href="#">KONTAKTLAR</a></li>
+            <li><a class="sitenav-link" href="#">BLOG</a></li>
           </ul>
         </nav>
-        <a href="#">QABULGA YOZILISH</a>
+        <a class="header-link" href="#">QABULGA YOZILISH</a>
       </div>
 
     </div>
-  </head>
+
+  </header>
 
   <main>
 
     <!-- HERO -->
-    <section>
-      <div>
-        <h2>Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.</h2>
+    <section class="hero">
+      <div class="hero-heading">
+        <h2 class="hero-text">Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.</h2>
         <p>Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p>
-        <a href="#">QABULGA YOZILISH</a>
+        <a class="hero-link" href="#">QABULGA YOZILISH</a>
 
         <div>
-          <img src="img/hero-img.jpg" alt="Shifokor rasmi" width="423" height="504" srcset="img/hero-img.jpg 1x, img/hero-img.jpg@2x 2x">
+          <img src="img/hero-img.png" alt="Shifokor rasmi" width="423" height="504" srcset="img/hero-img.png 1x, img/hero-img.png@2x 2x">
         </div>
       </div>
     </section>
 
-    <!-- FEATURES -->
+    <!-- SERVICES -->
     <section>
-      <h2>Xizmatlar</h2>
-      <div>
+      <h2 class="services">Xizmatlar</h2>
 
-      </div>
+      <ul class="servisec-list">
+        <li>
+          <div>
+            <img src="img/image-hijoma.jpg" alt="Hijoma" width="200" height="200" srcset="img/image-hijoma.jpg 1x, img/image-hijoma.jpg@2x 2x">
+          </div>
+          <h3 class="services-heading">Hijoma</h3>
+          <p class="services-text">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda Rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+        </li>
+        <li>
+          <div>
+            <img src="img/image-manual-terapiya.jpg" alt="Manual terapiya" width="200" height="200" srcset="img/image-manual-terapiya.jpg 1x, img/image-manual-terapiya.jpg@2x 2x">
+          </div>
+          <h3 class="services-heading">Manual terapiya</h3>
+          <p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+        </li>
+        <li>
+          <div>
+            <img src="img/image-zuluk-bilan-davolash.jpg" alt="Zuluk bilan davolash" width="200" height="200" srcset="img/image-zuluk-bilan-davolash.jpg 1x, img/image-zuluk-bilan-davolash.jpg@2x 2x">
+          </div>
+          <h3 class="services-heading">Zuluk bilan davolash</h3>
+          <p class="services-text">Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
+        </li>
+        <li>
+          <div>
+            <img src="img/image-tabiiy-dori-vositalari.jpg" alt="Tabiiy dori vositalari" width="200" height="200" srcset="img/image-tabiiy-dori-vositalari.jpg 1x, img/image-tabiiy-dori-vositalari.jpg@2x 2x">
+            <h3 class="services-heading">Tabiiy dori vositalari</h3>
+            <p class="services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+          </div>
+        </li>
+      </ul>
+      <a class="services-link" href="#">QABULGA YOZILISH</a>
+
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="contacts">
+      <h3 class="contact-heading">Qabulga ro’yxatdan o’ting</h3>
+      <ul class="contacts-list">
+        <li><a class="contacts-link" href="#">QONG'IROROQ QILISH</a></li>
+        <li><a class="contacts-link" href="#">TELEGRAMDAN YOZISH</a></li>
+      </ul>
     </section>
 
   </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="footer">
+    <div>
+      <a class="logo-link-footer" href="index.html">
+        <img src="img/logo-icon.svg" alt="Ansor Med logosi" width="50" height="50"><span>AnsorMed</span>
+      </a>
+
+      <div>
+
+        <!-- FOOTERNAV -->
+        <nav>
+          <ul class="footer-list">
+            <li><a class="footer-link" href="#">XIZMATLAR</a></li>
+            <li><a class="footer-link" href="#">DORILAR</a></li>
+            <li><a class="footer-link" href="#">ASAL</a></li>
+            <li><a class="footer-link" href="#">KONTAKTLAR</a></li>
+            <li><a class="footer-link" href="#">BLOG</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </footer>
 
 </body>
 </html>

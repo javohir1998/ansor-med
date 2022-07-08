@@ -1,3 +1,109 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #222;
+}
+
+/* HEADER NAV */
+.sitenav-list {
+  list-style: none;
+}
+
+.sitenav-link {
+  text-decoration: none;
+  font-style: normal;
+  color: #222;
+}
+
+.header-link {
+  text-decoration: none;
+  background-color: #DE2E54;
+  color: #fff;
+}
+
+/* SITE HERO */
+.hero {
+  background-color: #0EB4C1;
+}
+
+.hero-heading {
+  color: #fff;
+}
+
+.hero-text {
+  color: #fff;
+}
+
+.hero-link {
+  text-decoration: none;
+  background-color: #DE2E54;
+  color: #fff;
+}
+
+/* SERVICES */
+.services {
+  color: #000;
+}
+
+.services-heading {
+  color: #222;
+}
+
+.services-text {
+  color: #444;
+}
+
+.servisec-list {
+  list-style: none;
+}
+
+.services-link {
+  text-decoration: none;
+  background-color: #DE2E54;
+  color: #fff;
+}
+
+/* CONTACTS */
+.contacts {
+  background-color: #0EB4C1;
+}
+
+.contact-heading {
+  color: #fff;
+}
+
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #222;
+}
+
+.logo-link-footer {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+}
