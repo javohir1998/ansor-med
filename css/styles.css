@@ -132,7 +132,7 @@ body {
   border-radius: 8px;
   font-size: 15px;
   letter-spacing: 2px;
-  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-family: "Roboto Condensed", "Open Sans" "Arial", sans-serif;
   background-color: #de2e54;
   color: #fff;
   text-decoration: none;
@@ -289,7 +289,7 @@ body {
   margin-bottom: 40px;
   font-size: 36px;
   line-height: 1.2;
-  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   text-align: center;
 }
 
